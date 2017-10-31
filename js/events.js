@@ -1,6 +1,8 @@
 //define functions here
 function getIt() {
-  $('p').on('click'), alert("Hey!")
+  $('p').on('click'), function() {
+    alert("Hey!");
+  }
 }
 
 function frameIt() {
@@ -8,7 +10,9 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('input').on('keydown')
+  $('input').on('keydown'), function() {
+    if (key.which == )
+  }
 }
 
 $(document).ready(function(){
