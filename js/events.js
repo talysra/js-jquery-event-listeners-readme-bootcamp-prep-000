@@ -4,7 +4,9 @@ function getIt() {
 }
 
 function frameIt() {
-  $('.tasty').on('load'), $('img').append()
+  $('img').on('load'), function() {
+    
+  }
 }
 
 function pressIt() {
