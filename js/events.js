@@ -10,9 +10,15 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('input').on('keydown'), function() {
-    if (key.which == )
+  $('input').on('keydown'), function(key) {
+    if (key.which == 71) {
+      alert('G was pressed!')
+    }
   }
+}
+
+function submitIt() {
+  $('form').on()
 }
 
 $(document).ready(function(){
